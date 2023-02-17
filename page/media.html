@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Média</title>
+</head>
+<body>
+    <div class="conteiner-principal">
+        <header>
+            <div class="logo"><a href="../index.html"><img src="../images/logo.png" alt="logo"></a></div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="media.html">Média da Cadeira</a></li>
+                    <li><a href="cra.html">CRA</a></li>
+                    <li><a href="final.html">Nota de Final</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <form action="" method="get" name="media">
+                <p class="nota">
+                    <label for="nota">Nota:</label><br>
+                    <input type="text" id="notaV" placeholder="Ex: 7.0" required/>
+                </p>
+                <p class="peso">
+                    <label for="peso">Peso:</label><br>
+                    <input type="text" id="pesoV" placeholder="Ex: 1" required/>
+                </p>
+                <button type="submit" form="media" id="adiciona">Adicionar Nota</button>
+                <button type="reset">Corrigir</button>
+                <button type="submit" form="media" id="calcula">Gerar Média</button>
+                <p>Resultado:</p>
+                <h1 id="resposta">O resultado aparecerá aqui</h1>
+            </form>
+            
+        </section>
+        <script src="../js/media.js"></script>
+    </div>
+</body>

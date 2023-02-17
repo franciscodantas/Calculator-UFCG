@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="conteiner-principal">
+        <header>
+            <div class="logo"><a href="../index.html"><img src="../images/logo.png" alt="logo"></a></div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="media.html">Média da Cadeira</a></li>
+                    <li><a href="cra.html">CRA</a></li>
+                    <li><a href="final.html">Nota de Final</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section>
+            <form action="" method="get" name="media">
+                <p class="nota">
+                    <label for="nota">Média:</label><br>
+                    <input type="text" id="mediaV" placeholder="Ex: 7.0" required/>
+                </p>
+                <p class="ajuda">
+                    <a href="media.html" target="_blank" rel="noopener noreferrer" class="help"><b>Não sei minha média. Descubra aqui</b></a>
+                </p>
+                <div class="btn">
+                    <button type="reset">Corrigir</button>
+                    <button type="submit" form="media" id="calcula">Gerar CRA</button>
+                </div>
+                <p>Resultado:</p>
+                <h1 id="resposta">O resultado aparecerá aqui</h1>
+            </form>
+            
+        </section>
+        <script src="../js/final.js"></script>
+    </div>
+</body>
+</html>

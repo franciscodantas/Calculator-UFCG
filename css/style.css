@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #e0dfdf;
+}
+
+.conteiner-principal{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #000;
+}
+
+header{
+    width: 100%;
+    height: 7em;
+    background-color: rgb(247, 133, 190);
+    position: relative;
+    top: 0;  
+}
+.logo{
+    position: absolute;
+    width: 7em;
+    height: auto;
+    top: 4px;
+}
+
+.logo img{
+    width: 90%;
+    margin-left: 10%;
+}
+
+nav{
+    position: absolute; right: 10px; bottom: 0;
+}
+nav ul li {
+    float: left;
+    color:#bbbbbb00;
+    width: auto;
+    margin: 0.8em;
+    font-size: 1.5em;
+    font-family: 'verdana';
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #e0dfdf;
+}
+nav ul li a:hover{
+    color: #b13030;
+}
+
+.Introducao{
+    background-color: #e0dfdf;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-right: 100px;
+    padding: 20px;
+}
+.Introducao b{
+    color: #b13030;
+}
+
+.Introducao img{
+    position: relative;
+    float: left;
+    width: 400px;
+    height: auto;
+}
+
+.Criador{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 20px;
+}
+#eu{
+    width: 400px;
+    position: relative;
+    float: left;
+    right: 50px;
+    border-radius: 100px;
+}
+.Criador a{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Criador a img{
+    width: 100px;
+}
+.Criador h3{
+    font-family: 'Montserrat', sans-serif;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+section form{
+    border: #000 1px solid;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #5f5d5d;
+    width: 38%;
+    position: relative;
+    float: left;
+    padding: 2%;
+    top: 5%;
+    min-height: 300px;
+}
+section form p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #e0dfdf;
+    margin: 10px;
+    font-size: 1.5em;
+}
+section form input{
+    max-width: 100%;
+    width: 99%;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: solid #b50909 1px;
+    padding-left: 3%;
+    border-radius: 3em;
+}
+section form button{
+    width: 30%;
+    height: auto;
+    cursor: pointer;
+    background-color: #b50909;
+    color: #fff;
+    font-size: 1em;
+    padding:  15px 0 15px 0;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+#resposta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: black;
+    background-color: #e0dfdf;
+    min-height: 30px;
+    border-radius: 3em;
+}
+.ajuda {
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ajuda a{
+    color: aqua;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
